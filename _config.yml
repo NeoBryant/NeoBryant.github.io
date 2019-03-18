@@ -1,8 +1,8 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
-url: 待定
+baseurl: neobryant.github.io
+url: neobryant.github.io
 date_format: "ordinal"
 title: peng
 subtitle: "开源改变世界"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: JingHan Peng
 organization: 
-organization_url: 
+organization_url: neobryant.github.io
 github_username: neobryant
 location: Guangzhou, China
 email: pengjh9@mail2.sysu.edu.cn
