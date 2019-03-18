@@ -5,7 +5,6 @@ category: jekyll
 description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
 ---
 
-[html](../assets/html/1.html)
 
 Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
 
@@ -111,3 +110,6 @@ function foo(){
 }
 
 ```
+
+[html](../assets/html/1.html)
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
