@@ -8,10 +8,6 @@ description: 起始博客页
 
 # 技术分析
 
-$
-\frac{1}{2}
-$
+$$ E=mc^2 $$
 
-$$
-\hat{x}
-$$
+$$ f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
