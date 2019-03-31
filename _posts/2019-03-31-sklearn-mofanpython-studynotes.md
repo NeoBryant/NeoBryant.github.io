@@ -52,7 +52,6 @@ pip3 install -U scikit-learn
 
 ```
 conda install scikit-learn
-
 ```
 
 ## 2. 一般使用
@@ -421,7 +420,6 @@ clf = SVC()
 #clf = SVC(gamma='scale')
 clf.fit(X_train, y_train)
 print(clf.score(X_test, y_test))
-# 0.477777777778
 
 # 不知道为什么，改为SVC(gamma='scale')后，score可以达到0.97+
 
@@ -429,13 +427,13 @@ print(clf.score(X_test, y_test))
 
 ```
 0.4444444444444444
-
 ```
 
 ```
 /anaconda3/envs/deeplearning/lib/python3.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
   "avoid this warning.", FutureWarning)
 
+# 这个报错是因为这个版本下SVC有所更改，可以修改为clf = SVC(gamma='scale')，则不会保存，并且训练效果会提升
 ```
 
 数据标准化后
@@ -458,7 +456,6 @@ plt.show()
 
 ```
 0.9444444444444444
-
 ```
 
 
@@ -778,3 +775,6 @@ print(clf3.predict(X[0:1]))
 ```
 
 最后可以知道joblib在使用上比较容易，读取速度也相对pickle快。
+
+
+～～END～～
